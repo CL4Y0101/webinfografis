@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for qris on 2026-08-19T16:34:36Z
+# fly.toml app configuration file generated for qrisweb on 2026-08-19T16:48:45Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'qris'
+app = 'qrisweb'
 primary_region = 'sin'
 
 [build]
