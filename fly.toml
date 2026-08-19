@@ -21,3 +21,8 @@ primary_region = 'sin'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
+
+# TAMBAHKAN BAGIAN INI:
+[env]
+  PORT = "8080"
+  HOSTNAME = "0.0.0.0"
