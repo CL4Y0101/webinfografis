@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a; /* slate-900 */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Menyembunyikan scrollbar untuk mode presentasi */
+  .presentation-mode::-webkit-scrollbar {
+    display: none;
+  }
+  .presentation-mode {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+}
